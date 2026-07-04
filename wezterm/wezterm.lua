@@ -15,7 +15,7 @@ config.color_scheme = "rose-pine-moon"
 config.max_fps = 120
 config.initial_cols = 120
 config.initial_rows = 28
-config.font_size = 10
+config.font_size = 12
 config.font = wezterm.font('SF Mono')
 -- Set transparency globally
 config.window_background_opacity = 0.4
@@ -23,7 +23,7 @@ config.window_background_opacity = 0.4
 -- macOS-specific blur effect
 if wezterm.target_triple:find("darwin") then
   config.macos_window_background_blur = 50
-  config.font_size = 15.0
+  config.font_size = 14.0
   -- Removed: config.window_frame.font_size = 13.0
 end
 
